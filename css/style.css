@@ -62,13 +62,6 @@ header nav a{
 
 }
 
-/* CARROUSEL */
-.slider-container img {
-    max-width: 100%; 
-    height: auto; 
-  }
-
-
 /* COMIENZO MAIN */
 main{
     width: 1200px;
@@ -76,11 +69,19 @@ main{
     min-height: 550px;
 }
 
-#carrousel img{
-    width: 1200px;
-    height: 700px;
-}
+/* COMIENZO SLIDER */
 
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .slider-container img {
+    max-width: 100%; 
+    height: auto; 
+} */
+
+/* COMIENZO QUIENES SOMOS */
 #quienes-somos{
     width: 1200px;
     height: 435px;
@@ -99,6 +100,8 @@ main{
     text-align: center;
     padding: 30px;
 }
+
+/* COMIENZO DONÁ AHORA */
 
 #dona-ahora
 {
@@ -119,6 +122,8 @@ main{
     line-height: 3;
     border-radius: 10px;
 }
+
+/* COMIENZO INFO MONTE NATIVO */
 
 #info-monte-nativo{
     display: flex;
@@ -145,6 +150,8 @@ main{
 #info-monte-nativo img{
     padding-top: 50px;
 }
+
+/* COMIENZO SUMATE, ASOCIATE, CALCULA TU HUELLA DE CARBONO */
 
 #sumate-asociate-calcula{
     display: flex;

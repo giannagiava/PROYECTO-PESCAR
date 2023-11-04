@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var sliderContainer = document.querySelector('.slider-container');
-  var items = sliderContainer.querySelectorAll('li');
-  var interval = 2000; // Intervalo en milisegundos (2 segundos en este ejemplo)
-  var currentIndex = 0;
+  let sliderContainer = document.querySelector('.slider-container');
+  let items = sliderContainer.querySelectorAll('li');
+  let interval = 2000; // Intervalo en milisegundos (2 segundos en este ejemplo)
+  let currentIndex = 0;
 
   function showNextSlide() {
     items[currentIndex].style.display = 'none'; // Oculta la imagen actual
