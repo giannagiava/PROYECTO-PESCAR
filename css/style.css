@@ -16,7 +16,10 @@ body{
     background: whitesmoke;
 }
 
-a{text-decoration: none;}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
 
 img[alt="Logo-Garabato"]{
     width: 80px;
@@ -61,10 +64,77 @@ header nav a{
 
 /* COMIENZO MAIN */
 main{
-    width: 1100px;
+    width: 1200px;
     margin: auto;
     min-height: 550px;
 }
+
+#quienes-somos{
+    width: 1200px;
+    height: 435px;
+    background-color: #93C198;
+    padding-top: 100px;
+
+}
+#quienes-somos h2{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#quienes-somos p{
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+}
+
+#dona-ahora
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+#dona-ahora a{
+    font-size: 40px;
+    font-weight: 600;
+    width: 449px;
+    height: 120px;
+    background-color: #5D7E60;
+    text-align: center;
+    line-height: 3;
+    border-radius: 10px;
+}
+
+#info-monte-nativo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+#info-monte-nativo article{
+    width: 350px;
+    height: 612px;
+    background-color: #93C198;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#info-monte-nativo p{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#info-monte-nativo img{
+    padding-top: 50px;
+}
+
+
 
 /*COMIENZO FOOTER*/
 footer{
