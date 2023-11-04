@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="imgs/el-planeta-tierra (1).png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+     <!-- agregue para ver si anda con js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
 
 <body>
@@ -35,12 +38,31 @@
 
     <!-- FIN HEADER -->
 
+    <!-- CARROUSEL -->
+
+    <div class="swiffy-slider">
+        <ul class="slider-container">
+            <li><img src="imgs/carr (1).jpg"></li>
+            <li><img src="imgs/carr (2).jpg"></li>
+            <li><img src="imgs/carr (3).jpg"></li>
+        </ul>
+    
+        <button type="button" class="slider-nav"></button>
+        <button type="button" class="slider-nav slider-nav-next"></button>
+    
+        <div class="slider-indicators">
+            <button class="active"></button>
+            <button></button>
+            <button></button>
+        </div>
+    </div>
+
     <!-- COMIENZO MAIN -->
 
     <main>
-        <!-- <section id="hero-banner">
-
-        </section> -->
+        <section id="carrousel">
+            <img src="imgs/hola.jpg" alt="">
+        </section>
 
         <section id="quienes-somos">
             <h2>¿Quienes somos?</h2>
@@ -55,7 +77,7 @@
 
         <section id="dona-ahora">
             <a>
-                <p>DONÁ AHORA 🌱</p>
+                DONÁ AHORA 🌱
             </a>
         </section>
 
@@ -75,6 +97,9 @@
             <a>Sumate como voluntario</a>
             <a>Asociate</a>
             <a>Calculá tu huella de carbono</a>
+            
+            
+            
         </section>
 
     </main>
@@ -112,6 +137,8 @@
     </footer>
 
     <!-- FIN FOOTER -->
+
+    <script src="js/carrousel.js"></script>
 </body>
 
 </html>
