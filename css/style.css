@@ -240,6 +240,7 @@ a{
     cursor: pointer;
 }
 
+
 img[alt="Logo-Garabato"]{
     width: 80px;
     height: 80px;
@@ -420,6 +421,10 @@ footer nav a{
 
 #sumate-asociate-calcula a:nth-child(2){
     padding-top: 30px;
+}
+
+#sumate-asociate-calcula a p{
+    color: #303030;
 }
 
 /* ACCIONES */
